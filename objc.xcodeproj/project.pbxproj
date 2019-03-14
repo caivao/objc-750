@@ -302,7 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				BC8B5D1212D3D48100C78A5B /* libauto.dylib */,
-				52BC309121C64DD50027D1EA /* Common */,
+				52BC309121C64DD50027D1EA /* Include */,
 				838485C60D6D687700CEA253 /* Public Headers */,
 				838485C70D6D688200CEA253 /* Private Headers */,
 				8384862A0D6D6ABC00CEA253 /* Project Headers */,
@@ -386,7 +386,7 @@
 			path = "objc-test";
 			sourceTree = "<group>";
 		};
-		52BC309121C64DD50027D1EA /* Common */ = {
+		52BC309121C64DD50027D1EA /* Include */ = {
 			isa = PBXGroup;
 			children = (
 				5246421021C68926000909D5 /* isa.h */,
@@ -400,7 +400,7 @@
 				52BC309521C659A60027D1EA /* mach-o */,
 				52BC309221C657C20027D1EA /* sys */,
 			);
-			path = Common;
+			path = Include;
 			sourceTree = "<group>";
 		};
 		52BC309221C657C20027D1EA /* sys */ = {
@@ -866,7 +866,7 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
-					"$(SRCROOT)/Common",
+					"$(SRCROOT)/Include",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
@@ -948,7 +948,7 @@
 					"$(CONFIGURATION_BUILD_DIR)/usr/include/**",
 					"$(CONFIGURATION_BUILD_DIR)/usr/local/include/**",
 					/System/Library/Frameworks/System.framework/PrivateHeaders,
-					"$(SRCROOT)/Common",
+					"$(SRCROOT)/Include",
 				);
 				INSTALL_PATH = /usr/lib;
 				IS_ZIPPERED = YES;
